@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Ashrith Mekala's personal Hindsight encrypted backups application.">
+  <title>Hindsight encrypted backups</title>
+  <style>body{font:18px/1.65 system-ui,sans-serif;color:#202930;background:#f8fafb;margin:0}main{max-width:720px;margin:64px auto;padding:0 24px}h1,h2{line-height:1.2}h1{font-size:2rem}h2{font-size:1.3rem;margin-top:2rem}a{color:#0755a4;text-underline-offset:.2em}a:focus-visible{outline:3px solid #0755a4;outline-offset:4px}footer{border-top:1px solid #cbd5df;margin-top:40px;padding:20px 0;font-size:1rem}code{font-size:.9em;overflow-wrap:anywhere}</style>
+</head>
+<body>
+<main>
+  <h1>Hindsight encrypted backups</h1>
+  <p>A personal backup application operated by Ashrith Mekala. It saves encrypted copies of a self-hosted Hindsight memory database and recovery configuration to the owner's Google Drive.</p>
+  <h2>How it works</h2>
+  <p>The application encrypts backup archives on the owner's server before uploading them. It uses Google Drive to store those archives and to download them for recovery checks. It removes older app-created backups according to the configured retention settings.</p>
+  <h2>Google Drive access</h2>
+  <p>The application requests <code>https://www.googleapis.com/auth/drive.file</code>. Its backup workflow manages files and folders it creates. It does not request access to all files in Google Drive.</p>
+  <p>This application is for the owner's personal use. There is no public sign-up or backup upload form. This website provides information only and does not connect to the backup service.</p>
+  <p>This is an independent personal project. It is not an official Hindsight or Google service.</p>
+  <footer><a href="privacy.html">Privacy policy</a> · <a href="mailto:ashrith.mekala@gmail.com">Contact Ashrith Mekala</a></footer>
+</main>
+</body>
+</html>
